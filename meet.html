@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Frontend mentor challenge: create a landing page for an online meeting product">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Frontend Mentor | Meet landing page</title>
+</head>
+<body class="base-font flex-col-cen">
+  <header class="flex-col-cen">
+    <img class="logo-meet" src="assets/logo.svg">
+  </header>
+  <main>
+    <!-- HERO -->
+    <section class="hero flex-col-cen">
+      <div class="hero__grid">
+        <picture>
+          <source media="(max-width: 799px)" srcset="assets/tablet/image-hero.png" />
+          <source media="(min-width: 800px)" srcset="assets/desktop/image-hero-left.png" />
+          <img src="assets/desktop/image-hero-left.png" alt="A collection of portrait photographs of people of different races, ages and genders" />
+        </picture>
+        <article class="flex-col-cen hero__article">
+          <h1 class="hero__heading">Group Chat for Everyone</h1>
+          <p class="hero__paragraph">Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.</p>
+          <ul class="flex hero__btns">
+            <li class="hero__btn hero__btn-one">Download 
+              <span class="hero__btn-one-highlight">v1.3</span>
+            </li>
+            <li class="hero__btn hero__btn-two">What is it?</li>
+          </ul>
+        </article>
+        <img class="hero__img-right" src="assets/desktop/image-hero-right.png" alt="A collection of portrait photographs of people of different races, ages and genders">
+      </div>
+      <div class="div__comp flex-col-cen">
+        <div class="div__line"></div>
+        <div class="div__circle flex-col-cen">
+          <p class="div__text">01</p>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- s1 / 4-IMAGES -->
+    <section class="s1 flex-col-cen">
+      <article class="s1__grid">
+        <img class="s1__img" src="assets/desktop/image-woman-in-videocall.jpg">
+        <img class="s1__img" src="assets/desktop/image-women-videochatting.jpg">
+        <img class="s1__img" src="assets/desktop/image-men-in-meeting.jpg">
+        <img class="s1__img" src="assets/desktop/image-man-texting.jpg">
+        <div class="flex-col-cen s1__texts">
+          <h1>
+            <span class="s1__h1">
+              BUILT FOR MODERN USE
+            </span>
+            <span class="s1__h2">
+              Smarter meetings, all in one place 
+            </span>
+          </h1>
+          <p class="s1__p1">Send messages, share files, show your screen, and record your meetings — all in one workspace. Control who can join with invite-only team access, data encryption, and data export.</p>
+        </div>
+      </article>
+      <div class="div__comp flex-col-cen div2">
+        <div class="div__line"></div>
+        <div class="div__circle flex-col-cen">
+          <p class="div__text">02</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- s2 / FOOTER -->
+  <footer class="s2 s2__image">
+    <div class="s2__colour flex-col-cen">
+      <div class="s2__grid">
+      <p class="s2__large-text">Experience more together</p>
+      <p class="s2__small-text">Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.</p>
+       <ul class="s2__btns">
+        <li class="s2__btn s2__btn-one">
+          Download
+          <span class="s2__btn-one-highlight"> v1.3</span>
+        </li>
+      </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
