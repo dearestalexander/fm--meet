@@ -34,8 +34,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github Repo](https://dearestalexander.github.io/fm-meet/)
-- Live Site URL: [Github Pages](https://github.com/dearestalexander/fm-meet)
+- Solution URL: [Github Repo](https://github.com/dearestalexander/fm--meet)
+- Live Site for DaNang Page: [DaNang on Github pages](https://dearestalexander.github.io/fm--meet/)
+- Live site for Meet page: [Meet on Github pages](https://dearestalexander.github.io/fm--meet/meet)
 
 ## My process
 
